@@ -3,7 +3,13 @@ Projekt 1
 
 Należy wybrać trzy algorytmy sortowania (według tabeli). Zaimplementować (samodzielnie) wybrane algorytmy oraz przeprowadzić analizę ich efektywności. Wskazane jest użycie szablonów (templates) aby łatwo można było wykorzystać zaimplementowane algorytmy do sortowania tablic zawierających elementy różnych typów
 
-Dla 100 tablic (elementy typu całkowitoliczbowego) o następujących rozmiarach: 10 000, 50 000, 100 000, 500 000 i 1 000 000 wykonać eksperymenty z sortowaniem w następujących przypadkach:
+Dla 100 tablic (elementy typu całkowitoliczbowego) o następujących rozmiarach: 
+    10 000
+    50 000
+    100 000
+    500 000
+    1 000 000
+wykonać eksperymenty z sortowaniem w następujących przypadkach:
 
     • wszystkie elementy tablicy losowe.
     • 25%, 50%, 75%, 95%, 99%, 99,7% początkowych elementów tablicy jest już posortowanych.
