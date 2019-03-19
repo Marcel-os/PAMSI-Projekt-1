@@ -13,19 +13,26 @@
 int main()
 {
 	Komunikat_powitalny();
-	int N=1000000;
+	int N=10000;
 	unsigned int tabliczka[N];
 	srand((unsigned)time(NULL));
-	for(int i = 0; i < N; i++) tabliczka[i] = rand();
+//	for(int i = 0; i < N; i++) tabliczka[i] = rand();
 //	for(int i = 0; i < N; i++) std::cout <<"\t"<< tabliczka[i];
 //	std::cout << std::endl;
 	double czas = 0;
 	clock_t start, stop;
 	start = clock();
-	//Merge_sort(tabliczka,0,N-1);
-	Quick_sort(tabliczka,0,N-1);
+	//Przez_scalanie(tabliczka,0,N-1);
+	//Quick_sort(tabliczka,0,N-1);
+	//Hybrid_Introspective_Sort(tabliczka,N);
 	//Bubble_sort(tabliczka,N);
-	Odwrocenie(tabliczka,N);
+	//Odwrocenie(tabliczka,N);
+	for(int i=0; i<100; i++){
+		int * tablica = new int[N];
+		for(int j = 0; j < N; j++) tablica[j] = rand();
+		Quick_sort(tabliczka,0,N-1);
+		delete [] tablica;
+	}
 	stop = clock();
 	czas = (double)(stop - start) / CLOCKS_PER_SEC;
 

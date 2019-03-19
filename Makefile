@@ -1,6 +1,7 @@
 
 __start__: a.out
 	./a.out
+	#./a.out >out.txt
 	
 a.out: main.o sortowanie.o komunikaty.o
 	g++ main.o sortowanie.o komunikaty.o
