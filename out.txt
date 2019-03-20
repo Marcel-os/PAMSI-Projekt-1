@@ -1,4 +1,0 @@
-Komunikat powitalny, sizeof(int): 4
-po sortowaniu: 
-Posortowane malejaco!
-DONE time spend: 0.24844s

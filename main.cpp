@@ -1,56 +1,44 @@
 /*
- * main.c
+ * main.cpp
  *
- *  Created on: Mar 13, 2019
- *      Author: Marcel Domagała
+ *  Created on: Mar 20, 2019
+ *      Author: marceldomagala
  */
 
+#define ILTABLIC 100
+
 #include <iostream>
-#include <cmath>
-#include "sortowanie.h"
-#include "komunikaty.h"
+#include "badania.h"
 
 int main()
 {
-	Komunikat_powitalny();
-	int N=10000;
-	unsigned int tabliczka[N];
-	srand((unsigned)time(NULL));
-//	for(int i = 0; i < N; i++) tabliczka[i] = rand();
-//	for(int i = 0; i < N; i++) std::cout <<"\t"<< tabliczka[i];
-//	std::cout << std::endl;
-	double czas = 0;
-	clock_t start, stop;
-	start = clock();
-	//Przez_scalanie(tabliczka,0,N-1);
-	//Quick_sort(tabliczka,0,N-1);
-	//Hybrid_Introspective_Sort(tabliczka,N);
-	//Bubble_sort(tabliczka,N);
-	//Odwrocenie(tabliczka,N);
-	for(int i=0; i<100; i++){
-		int * tablica = new int[N];
-		for(int j = 0; j < N; j++) tablica[j] = rand();
-		Quick_sort(tabliczka,0,N-1);
-		delete [] tablica;
-	}
-	stop = clock();
-	czas = (double)(stop - start) / CLOCKS_PER_SEC;
+	std::cout<< "TEST"<< std::endl;
 
-
-	std::cout << "po sortowaniu: " << std::endl;
-//	for(int i = 0; i < N; i++) std::cout <<"\t"<< tabliczka[i];
-//	std::cout << std::endl;
-	if(Czy_rosnaco(tabliczka,N)) std::cout << "Posortowane rosnaco!" << std::endl;
-	if(Czy_malejaco(tabliczka,N)) std::cout << "Posortowane malejaco!" << std::endl;
-	std::cout << "DONE time spend: " << czas << "s"<<std::endl;
+	//badania dla 100 tablic 10 000 elem.:
+	//Badanie(ILTABLIC;10000;0)
+	//Badanie(ILTABLIC;10000;250)
+	//Badanie(ILTABLIC;10000;500)
+	//Badanie(ILTABLIC;10000;750)
+	//Badanie(ILTABLIC;10000;950)
+	//Badanie(ILTABLIC;10000;990)
+	//Badanie(ILTABLIC;10000;997)
+	//Badanie_odwrotnie_posortowana(ILTABLIC;10000;0)
+	// .
+	// .
+	// .
+	//badania dla 100 tablic 1 000 000 elem.:
+	//Badanie(ILTABLIC;1000000;0)
+	//Badanie(ILTABLIC;1000000;250)
+	//Badanie(ILTABLIC;1000000;500)
+	//Badanie(ILTABLIC;1000000;750)
+	//Badanie(ILTABLIC;1000000;950)
+	//Badanie(ILTABLIC;1000000;990)
+	//Badanie(ILTABLIC;1000000;997)
+	//Badanie_odwrotnie_posortowana(ILTABLIC;1000000;0)
 	return 0;
 }
 
-// POMIAR CZASU:
 
-//	double czas = 0;
-//	clock_t start, stop;
-//	start = clock();
-//	stop = clock();
-//	czas = (double)(stop - start) / CLOCKS_PER_SEC;
+
+
 
