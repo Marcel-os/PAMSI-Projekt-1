@@ -1,5 +1,6 @@
 __start__: a.out
-	./a.out >wyniki.txt
+#	./a.out >wyniki.txt
+	./a.out
 	
 a.out: main.o badania.o pomocnicze.o sort_scalanie.o sort_szybkie.o sort_introspektywne.o komunikaty.o
 	g++ main.o badania.o pomocnicze.o sort_scalanie.o sort_szybkie.o sort_introspektywne.o komunikaty.o

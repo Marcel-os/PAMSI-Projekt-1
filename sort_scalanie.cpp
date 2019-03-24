@@ -43,7 +43,7 @@ void Sortowanie_przez_scalenie(unsigned int *tablica, int lewy, int prawy)
 	Sortowanie_przez_scalenie(tablica, srodek + 1, prawy);
 
 	//scalamy dwie posortowane tablice
-	Scalanie(tab, lewy, srodek, prawy);
+	Scalanie(tablica, lewy, srodek, prawy);
 }
 
 

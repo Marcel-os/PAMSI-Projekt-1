@@ -8,7 +8,8 @@
 #ifndef BADANIA_H_
 #define BADANIA_H_
 
-
+void Badanie(int il_tablic, int il_elementow, int procent_posortowanych);
+void Badanie_odwrotnie_posortowana(int il_tablic, int il_elementow, int procent_posortowanych);
 
 
 

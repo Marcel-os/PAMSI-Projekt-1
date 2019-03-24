@@ -5,7 +5,7 @@
  *      Author: marceldomagala
  */
 
-#define ILTABLIC 100
+#define ILTABLIC 1
 
 #include <iostream>
 #include "badania.h"
@@ -13,6 +13,7 @@
 int main()
 {
 	std::cout<< "TEST"<< std::endl;
+	Badanie(ILTABLIC,1000,0);
 
 	//badania dla 100 tablic 10 000 elem.:
 	//Badanie(ILTABLIC;10000;0)
