@@ -23,6 +23,7 @@ void Badanie(int il_tablic, int il_elementow,int procent_posortowanych)
 		double czas_calkowity = 0;
 		int posortowane = 0;
 		clock_t start, stop;
+
 		for(int i=0; i<il_tablic; i++)
 		{
 			unsigned int * tablica = new unsigned int[il_elementow];
@@ -30,27 +31,155 @@ void Badanie(int il_tablic, int il_elementow,int procent_posortowanych)
 			//sortowanie wstepne:
 			if(!(!procent_posortowanych))
 			{
-				Sortowanie_szybkie(tablica,0,((il_elementow*procent_posortowanych)/1000)-1);
+				Sortowanie_introspektywne(tablica,(il_elementow*procent_posortowanych)/1000);
 			}
-				std::cout << (il_elementow*procent_posortowanych)/1000 << "/" << std::endl;
-				for(int a = 0; a < il_elementow; a++) std::cout <<"\t"<< tablica[a];
-				std::cout << std::endl;
 
 			start = clock();
 			Sortowanie_szybkie(tablica,0,il_elementow-1);
-			//Sortowanie_przez_scalenie(tablica,0,il_elementow-1);
-			//Sortowanie_introspektywne(tablica, il_elementow);
-
 			stop = clock();
+
 			if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
 			czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
 			czas_calkowity += czas_pomocniczy;
 			delete [] tablica;
 		}
-		std::cout << std::endl << "czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+		//std::cout << std::endl << "(szybki sort)czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+		Komunikat_wynik_sort_szybkie( czas_calkowity, posortowane);
+
+		czas_pomocniczy = 0;
+		czas_calkowity = 0;
+		posortowane = 0;
+
+		for(int i=0; i<il_tablic; i++)
+		{
+			unsigned int * tablica = new unsigned int[il_elementow];
+			for(int j = 0; j < il_elementow; j++) tablica[j] = std::rand()%100;
+			//sortowanie wstepne:
+			if(!(!procent_posortowanych))
+			{
+				Sortowanie_introspektywne(tablica,(il_elementow*procent_posortowanych)/1000);
+			}
+
+			start = clock();
+			Sortowanie_przez_scalenie(tablica,0,il_elementow-1);
+			stop = clock();
+
+			if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
+			czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
+			czas_calkowity += czas_pomocniczy;
+			delete [] tablica;
+		}
+		//std::cout << std::endl << "(przez scalanie sort) czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+		Komunikat_wynik_sort_przez_scalanie( czas_calkowity, posortowane);
+
+		czas_pomocniczy = 0;
+		czas_calkowity = 0;
+		posortowane = 0;
+
+		for(int i=0; i<il_tablic; i++)
+		{
+			unsigned int * tablica = new unsigned int[il_elementow];
+			for(int j = 0; j < il_elementow; j++) tablica[j] = std::rand()%100;
+			//sortowanie wstepne:
+			if(!(!procent_posortowanych))
+			{
+				Sortowanie_introspektywne(tablica,(il_elementow*procent_posortowanych)/1000);
+			}
+
+			start = clock();
+			Sortowanie_introspektywne(tablica, il_elementow);
+			stop = clock();
+
+			if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
+			else std::cerr << "Blad, nie posortowano" << std::endl;
+			czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
+			czas_calkowity += czas_pomocniczy;
+			delete [] tablica;
+		}
+		//std::cout << std::endl << "(introspektywny sort) czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+		Komunikat_wynik_sort_introspektywne(czas_calkowity, posortowane);
+
 }
-void Badanie_odwrotnie_posortowana(int il_tablic, int il_elementow, int procent_posortowanych)
+void Badanie_odwrotnie_posortowana(int il_tablic, int il_elementow)
 {
+
+	srand( time( NULL ) );
+	double czas_pomocniczy = 0;
+	double czas_calkowity = 0;
+	int posortowane = 0;
+	clock_t start, stop;
+
+	for(int i=0; i<il_tablic; i++)
+	{
+		unsigned int * tablica = new unsigned int[il_elementow];
+		for(int j = 0; j < il_elementow; j++) tablica[j] = std::rand()%100;
+		//sortowanie wstepne:
+			Sortowanie_introspektywne(tablica, il_elementow);
+			Odwrocenie(tablica, il_elementow);
+
+		start = clock();
+		Sortowanie_szybkie(tablica,0,il_elementow-1);
+		stop = clock();
+
+		if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
+		else std::cerr << "Blad, nie posortowano" << std::endl;
+		czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
+		czas_calkowity += czas_pomocniczy;
+		delete [] tablica;
+	}
+	//std::cout << std::endl << "(szybki sort)czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+	Komunikat_wynik_sort_szybkie( czas_calkowity, posortowane);
+
+	czas_pomocniczy = 0;
+	czas_calkowity = 0;
+	posortowane = 0;
+
+	for(int i=0; i<il_tablic; i++)
+	{
+		unsigned int * tablica = new unsigned int[il_elementow];
+		for(int j = 0; j < il_elementow; j++) tablica[j] = std::rand()%100;
+		//sortowanie wstepne:
+			Sortowanie_introspektywne(tablica, il_elementow);
+			Odwrocenie(tablica, il_elementow);
+
+		start = clock();
+		Sortowanie_przez_scalenie(tablica,0,il_elementow-1);
+		stop = clock();
+
+		if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
+		else std::cerr << "Blad, nie posortowano" << std::endl;
+		czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
+		czas_calkowity += czas_pomocniczy;
+		delete [] tablica;
+	}
+	//std::cout << std::endl << "(szybki sort)czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+	Komunikat_wynik_sort_przez_scalanie( czas_calkowity, posortowane);
+
+	czas_pomocniczy = 0;
+	czas_calkowity = 0;
+	posortowane = 0;
+
+	for(int i=0; i<il_tablic; i++)
+	{
+		unsigned int * tablica = new unsigned int[il_elementow];
+		for(int j = 0; j < il_elementow; j++) tablica[j] = std::rand()%100;
+		//sortowanie wstepne:
+			Sortowanie_introspektywne(tablica, il_elementow);
+			Odwrocenie(tablica, il_elementow);
+
+		start = clock();
+		Sortowanie_introspektywne(tablica, il_elementow);
+		stop = clock();
+
+		if(Czy_rosnaco(tablica, il_elementow)) posortowane++;
+		else std::cerr << "Blad, nie posortowano" << std::endl;
+		czas_pomocniczy = (double)(stop - start) / CLOCKS_PER_SEC;
+		czas_calkowity += czas_pomocniczy;
+		delete [] tablica;
+	}
+	//std::cout << std::endl << "(szybki sort)czas: " << czas_calkowity << "  il. posortowanych rosnaco tablic: "<< posortowane <<  std::endl;
+	Komunikat_wynik_sort_introspektywne( czas_calkowity, posortowane);
+
 
 }
 
