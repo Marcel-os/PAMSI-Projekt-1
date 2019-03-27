@@ -36,7 +36,7 @@ int main()
 	Komunikat_sortowanie_odwrotne();
 	Badanie_odwrotnie_posortowana(ILTABLIC,10000);
 
-	std::cerr << ".";
+	std::cerr << "/";
 
 	//badania dla 100 tablic 50 000 elem.:
 
@@ -58,7 +58,7 @@ int main()
 	Komunikat_sortowanie_odwrotne();
 	Badanie_odwrotnie_posortowana(ILTABLIC,50000);
 
-	std::cerr << ".";
+	std::cerr << "/";
 
 	//badania dla 100 tablic 100 000 elem.:
 
@@ -80,7 +80,7 @@ int main()
 	Komunikat_sortowanie_odwrotne();
 	Badanie_odwrotnie_posortowana(ILTABLIC,100000);
 
-	std::cerr << ".";
+	std::cerr << "/";
 
 	//badania dla 100 tablic 500 000 elem.:
 
@@ -102,7 +102,7 @@ int main()
 	Komunikat_sortowanie_odwrotne();
 	Badanie_odwrotnie_posortowana(ILTABLIC,500000);
 
-	std::cerr << ".";
+	std::cerr << "/";
 
 	//badania dla 100 tablic 1 000 000 elem.:
 
@@ -124,7 +124,7 @@ int main()
 	Komunikat_sortowanie_odwrotne();
 	Badanie_odwrotnie_posortowana(ILTABLIC,1000000);
 
-	std::cerr << ".";
+	std::cerr << "/";
 
 	return 0;
 }

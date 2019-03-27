@@ -8,6 +8,8 @@
 #include <iostream>
 #include "komunikaty.h"
 
+//zbior funkcji realizujacych wyswietlanie na std wyjsciu komunikatow
+
 void Komunikat_powitalny()
 {
 	std::cout << std::endl;

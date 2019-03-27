@@ -5,26 +5,21 @@
  *      Author: marceldomagala
  */
 
+//zbior funkcji realizujacych algorytm sortowania przez scalanie
+
 #include <iostream>
 #include "sort_scalanie.h"
 
 void Scalanie(unsigned int *tablica, int lewy, int srodek, int prawy)
 {
 	int i, j;
-	int pomocnicza[prawy+1]; //	int pomocnicza[1000000];
-
-	//zapisujemy lewą częsć podtablicy w tablicy pomocniczej
+	int pomocnicza[prawy+1];										//niezbedna do scalnia jest pomocnicza tablica
 	for (i = srodek + 1; i>lewy; i--)
-		pomocnicza[i - 1] = tablica[i - 1];
-
-	//zapisujemy prawą częsć podtablicy w tablicy pomocniczej
+		pomocnicza[i - 1] = tablica[i - 1];							//wypelniamy ja od srodka do lewej
 	for (j = srodek; j<prawy; j++)
-		pomocnicza[prawy + srodek - j] = tablica[j + 1];
-
-	//scalenie dwóch podtablic pomocniczych i zapisanie ich
-	//we własciwej tablicy
+		pomocnicza[prawy + srodek - j] = tablica[j + 1];			//nastepnie od srodka do prawej
 	for (int k = lewy; k <= prawy; k++)
-		if (pomocnicza[j]<pomocnicza[i])
+		if (pomocnicza[j]<pomocnicza[i])							//wpisanie tablicy pomocniczej do tablicy wlasciwej
 			tablica[k] = pomocnicza[j--];
 		else
 			tablica[k] = pomocnicza[i++];
@@ -32,18 +27,12 @@ void Scalanie(unsigned int *tablica, int lewy, int srodek, int prawy)
 
 void Sortowanie_przez_scalenie(unsigned int *tablica, int lewy, int prawy)
 {
-	//gdy mamy jeden element, to jest on juz posortowany
+
 	if (prawy <= lewy) return;
-
-	//znajdujemy srodek podtablicy
-	int srodek = (prawy + lewy) / 2;
-
-	//dzielimy tablice na czesc lewa i prawa
-	Sortowanie_przez_scalenie(tablica, lewy, srodek);
-	Sortowanie_przez_scalenie(tablica, srodek + 1, prawy);
-
-	//scalamy dwie posortowane tablice
-	Scalanie(tablica, lewy, srodek, prawy);
+	int srodek = (prawy + lewy) / 2;								//wyznaczenie srodka tablicy
+	Sortowanie_przez_scalenie(tablica, lewy, srodek);				//sortowanie najperw lewej czesci
+	Sortowanie_przez_scalenie(tablica, srodek + 1, prawy);			//a nastepnie prawej czesci
+	Scalanie(tablica, lewy, srodek, prawy);							//scalenie dwóch tablic (lewej i prawej) w jedną
 }
 
 

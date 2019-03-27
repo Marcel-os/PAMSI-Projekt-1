@@ -13,252 +13,252 @@ Badania dla tablic o 10000 elementow.
 
 	Wyniki dla elementow losowych w tablicach:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.101584 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.172082 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.114459 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.147662 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.192416 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.142705 sekund.
 
 	Wyniki dla sortowania, gdzie 25% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.103365 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.153637 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.10966 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.157231 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.178857 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.148698 sekund.
 
 	Wyniki dla sortowania, gdzie 50% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.102772 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.13817 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.103072 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.16124 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.160137 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.176264 sekund.
 
 	Wyniki dla sortowania, gdzie 75% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.109366 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.130051 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.085953 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.187394 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.13208 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.248479 sekund.
 
 	Wyniki dla sortowania, gdzie 95% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.175446 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.107835 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.071474 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.435109 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.1279 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.267917 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.343737 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.107595 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.062441 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.14243 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.114876 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.26084 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.502528 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.106157 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.06196 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		2.52568 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.114174 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.259508 sekund.
 
 	Wyniki dla elementow juz posorowanych, ale w odwrotnej kolejnosci:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.481394 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.106666 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.06484 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		8.57481 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.113352 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.28516 sekund.
 
 Badania dla tablic o 50000 elementow.
 
 
 	Wyniki dla elementow losowych w tablicach:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.502198 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.861123 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.566775 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.721143 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.01184 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.712593 sekund.
 
 	Wyniki dla sortowania, gdzie 25% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.496794 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.804191 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.546864 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.762716 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.965623 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.758982 sekund.
 
 	Wyniki dla sortowania, gdzie 50% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.511857 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.729084 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.517816 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.801184 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.862258 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.910678 sekund.
 
 	Wyniki dla sortowania, gdzie 75% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.562788 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.65947 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.43877 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.946501 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.76129 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.34765 sekund.
 
 	Wyniki dla sortowania, gdzie 95% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		0.915486 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.61007 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.35626 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		2.29448 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.678397 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.46724 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.75733 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.599136 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.324187 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		6.94945 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.672429 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.4407 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		2.66977 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.606993 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.314046 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		17.1746 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.665867 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.43582 sekund.
 
 	Wyniki dla elementow juz posorowanych, ale w odwrotnej kolejnosci:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		3.0625 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.597161 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.318562 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		105.453 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		0.646853 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.52081 sekund.
 
 Badania dla tablic o 100000 elementow.
 
 
 	Wyniki dla elementow losowych w tablicach:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.0175 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.78563 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.16823 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.45041 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		2.09408 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.41594 sekund.
 
 	Wyniki dla sortowania, gdzie 25% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.02093 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.66848 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.12221 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.53835 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.95103 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.51352 sekund.
 
 	Wyniki dla sortowania, gdzie 50% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.04704 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.52589 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.04304 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.59931 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.75972 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	1.74679 sekund.
 
 	Wyniki dla sortowania, gdzie 75% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.15076 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.38132 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.899063 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.93005 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.56459 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	2.71409 sekund.
 
 	Wyniki dla sortowania, gdzie 95% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		1.85813 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.29452 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.736213 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		4.68455 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.39807 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	3.06222 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		3.58176 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.25304 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.681904 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		14.3635 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.35959 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	3.03453 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		5.33408 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.24854 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.641863 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		34.4557 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.36763 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	3.01966 sekund.
 
 	Wyniki dla elementow juz posorowanych, ale w odwrotnej kolejnosci:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		6.81357 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.253 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	0.664465 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		277.297 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		1.48855 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	3.42516 sekund.
 
 Badania dla tablic o 500000 elementow.
 
 
 	Wyniki dla elementow losowych w tablicach:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		5.24754 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		9.75156 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	6.35057 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		7.57581 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		12.3541 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	7.52464 sekund.
 
 	Wyniki dla sortowania, gdzie 25% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		5.49064 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		9.08432 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	6.10581 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		8.18626 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		10.6045 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	7.43966 sekund.
 
 	Wyniki dla sortowania, gdzie 50% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		5.44273 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		8.38568 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	5.6811 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		8.07958 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		9.34775 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	8.49735 sekund.
 
 	Wyniki dla sortowania, gdzie 75% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		5.8914 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.67609 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	4.98797 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		9.621 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		8.79777 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	14.7662 sekund.
 
 	Wyniki dla sortowania, gdzie 95% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		9.60222 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.19602 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	4.07592 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		23.1897 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.54867 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	16.8943 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		18.4607 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.91335 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	4.15716 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		75.4177 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		8.02192 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	17.8507 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		31.001 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		9.2042 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	5.38244 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		184.66 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.19243 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	16.57 sekund.
 
 	Wyniki dla elementow juz posorowanych, ale w odwrotnej kolejnosci:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		42.5566 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		7.71702 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	4.02248 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		2185.89 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		8.26643 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	19.9054 sekund.
 
 Badania dla tablic o 1000000 elementow.
 
 
 	Wyniki dla elementow losowych w tablicach:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		11.7595 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		22.0877 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	14.7828 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		15.714 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		26.2533 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	16.9886 sekund.
 
 	Wyniki dla sortowania, gdzie 25% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		11.8858 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		20.0654 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	13.3586 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		17.4273 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		23.4883 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	15.8271 sekund.
 
 	Wyniki dla sortowania, gdzie 50% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		11.6802 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		18.5018 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	13.6433 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		17.6482 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		22.3491 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	18.5023 sekund.
 
 	Wyniki dla sortowania, gdzie 75% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		12.9354 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		17.7953 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	11.8615 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		20.632 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		18.0109 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	31.0292 sekund.
 
 	Wyniki dla sortowania, gdzie 95% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		22.1515 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		17.2393 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	10.0129 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		48.4354 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		15.8898 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	37.1057 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		41.8307 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		16.648 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	8.52387 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		148.331 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		15.3059 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	35.543 sekund.
 
 	Wyniki dla sortowania, gdzie 99% elementow poczatkowych bylo juz posortownych:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		58.3205 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		14.9351 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	8.33253 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		379.225 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		15.704 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	36.7183 sekund.
 
 	Wyniki dla elementow juz posorowanych, ale w odwrotnej kolejnosci:
 
-		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		88.3816 sekund.
-		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		14.9543 sekund.
-		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	8.56873 sekund.
+		Wyniki dla sortowania szybkiego: 100 tablic posortowano w czasie: 		4752.55 sekund.
+		Wyniki dla sortowania przez scalanie: 100 tablic posortowano w czasie: 		15.1656 sekund.
+		Wyniki dla sortowania introspektywnego: 100 tablic posortowano w czasie: 	36.266 sekund.

@@ -10,4 +10,6 @@
 
 void Sortowanie_szybkie(unsigned int *tablica,int lewy, int prawy);
 
+int Partycjonowanie(unsigned int *tablica, int lewy, int prawy);
+
 #endif /* SORT_SZYBKIE_H_ */
